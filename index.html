@@ -56,7 +56,8 @@
       // If the count down is finished, write some text
       if (distance < 0) {
         clearInterval(x);
-        document.getElementById("demo").innerHTML = "EXPIRED";
+        document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+      + minutes + "m " + seconds + "s ";
       }
     }, 1000);
     // code shamelessly stolen from w3 schools because i don't know how to code
